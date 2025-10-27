@@ -8,7 +8,7 @@ Proyek ini mengimplementasikan REST API CRUD (Create, Read, Update, Delete) sede
 ## Struktur Folder Proyek
 Struktur folder mengadopsi pola MVC (Model, Controller, Routes) yang dipadukan dengan folder untuk Config dan Middleware. 
 
-<img width="432" height="626" alt="gambar" src="https://github.com/user-attachments/assets/0cd7f3d0-059f-48d7-8da7-70994a605c7f" />
+<img width="435" height="399" alt="gambar" src="https://github.com/user-attachments/assets/c55f3a19-34b5-47f0-ad9c-086e8aeb6c7b" />
 
 ## Database
 Saya menggunakan database MySQL dengan nama femalehijab dan satu tabel bernama produk.
