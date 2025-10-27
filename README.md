@@ -24,11 +24,11 @@ Berikut adalah penjelasan singkat untuk setiap file berdasarkan kode yang Anda b
 3. **controllers/productController.js**: Mengandung logika bisnis dan menangani request dari client (mengambil data dari req.params atau req.body) dan mengirimkan response JSON. Ia memanggil fungsi dari productModel dan menangani error dasar (misalnya, data tidak ditemukan).
 
 4. **routes/productRoutes.js**: Mendefinisikan semua endpoint CRUD untuk resource /api/produk dan mengarahkan request ke controller yang sesuai.
-    GET /: getAllProducts (Mengambil semua data produk)
-    GET /:id: getProductById (Mengambil data produk berdasarkan ID)
-    POST /: validateProduct, createProduct (Menambahkan produk baru)
-    PUT /:id: validateProduct, updateProduct (Memperbarui data produk berdasarkan ID)
-    DELETE /:id: deleteProduct (Menghapus produk berdasarkan ID)
+    - GET /: getAllProducts (Mengambil semua data produk)
+    - GET /:id: getProductById (Mengambil data produk berdasarkan ID)
+    - POST /: validateProduct, createProduct (Menambahkan produk baru)
+    - PUT /:id: validateProduct, updateProduct (Memperbarui data produk berdasarkan ID)
+    - DELETE /:id: deleteProduct (Menghapus produk berdasarkan ID)
 
 5. **middleware/logger.js**: Middleware sederhana untuk mencatat metode HTTP (req.method) dan URL (req.url) dari setiap request yang masuk ke server.
 
